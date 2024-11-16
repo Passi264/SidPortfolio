@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaf.jpeg";
+import chatify from "../../Assets/Projects/chatify.jpeg";
+import suicide from "../../Assets/Projects/suicide.jpeg";
+import bitsOfCode from "../../Assets/Projects/blog.jpeg";
 
 function Projects() {
   return (
@@ -25,10 +23,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Banagalore House Predictor"
+              description="Bangalore House Price Predictor is a machine learning web app that estimates property prices in Bangalore based on features like location, square footage, bedrooms, and bathrooms. Trained on real estate data, it offers insights across different localities and property types. Key features include a user-friendly Streamlit interface, accurate predictions, and flexible input options to customize property details."
+              ghLink="https://github.com/sidd7200/price_predictor?tab=readme-ov-file"
+              demoLink="https://pricepredictor-2w9q8k3xaizff9rzar5bd2.streamlit.app"
             />
           </Col>
 
@@ -36,21 +34,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Movie Recommender System"
+              description="The Movie Recommender System is a web app built with Streamlit that suggests similar movies based on user selection, using a precomputed similarity matrix. Users can select a movie to receive five recommendations, each displayed with its poster fetched from TMDb. Built with Python, Pandas, Pickle, and Requests, this app provides an intuitive way to discover movies"
+              ghLink="https://github.com/sidd7200/Moviesystem"
+              demoLink="https://moviesystem-th5fsbr89efipszsghgzte.streamlit.app"
             />
           </Col>
 
@@ -58,10 +45,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Netflix Data Analysis Dashboard"
+              description="This Netflix Data Dashboard offers an analytical view of Netflix's content library, highlighting trends and distributions across various metrics. It visualizes the total movies and TV shows by country, ratings distribution, and the top 10 genres, with genres like Documentaries and Dramas leading. The dashboard includes a pie chart for the distribution of movies versus TV shows and a line chart tracking the growth of Netflix’s content over the years. Users can filter by genre, rating, release year, and more to gain detailed insights into the evolution and reach of Netflix’s catalog."
+              ghLink="https://github.com/sidd7200/Netflix-Data-Analysis?tab=readme-ov-file"
+              demoLink="https://github.com/sidd7200/Netflix-Data-Analysis/blob/main/NETFLIX_2.pptx"
             />
           </Col>
 
@@ -69,22 +56,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Cricket Analysis Dashboard"
+              description="This cricket analytics project leverages ESPN data to create interactive Power BI dashboards analyzing player performance in the 2024 World Cup. Key dashboards include Player Analysis for roles like Power Hitters and Finishers, Player Profile for detailed stats like strike rate and boundary percentage, and the Final 12 Selection to choose a team based on batting and bowling metrics. Built with Python for data scraping and Power BI for visualizations, this project offers a comprehensive view of player performance."
+              ghLink="https://github.com/sidd7200/cricketdashboard"
             />
           </Col>
         </Row>
