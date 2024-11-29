@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import siddhantImage from "../../Assets/Projects/siddhant.jpg";
+import roadmapImage from "../../Assets/Projects/xs.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -42,7 +43,18 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
+        
         <Toolstack />
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col md={8}>
+            <img
+              src={roadmapImage} // Use the imported image here
+              alt="Career Roadmap"
+              className="img-fluid"
+              style={{ width: "100%" }}
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
