@@ -160,7 +160,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <span style={{ fontSize: "1.5em", fontWeight: "bold", color: "#fff" }}>
-            Home
+            Portfolio
           </span>
         </Navbar.Brand>
         <Navbar.Toggle

@@ -9,22 +9,23 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
         <p style={{ textAlign: "justify" }}>
           Hi Everyone! I'm <span className="purple">Siddhant Somvanshi</span>, currently based in 
-          <span className="purple">pmOntario, Canada</span>.
+          <span className="purple"> Ontario, Canada</span>.
           <br />
-          I am an Assistant Team Lead (Operations & Management) at Dollarama and hold a Postgraduate Certificate in Data Analytics for Business Decision Making from Durham College.
+           With a Postgraduate Certificate in Data Analytics for Business Decision-Making from Durham College, I’m passionate about uncovering insights through data and leveraging analytics to solve real-world problems.
           <br />
           <br />
           Beyond analyzing data, I enjoy:
         </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />Investing in the stock market
+              <ImPointRight />Exploring the world of investing and analyzing financial markets
+              Staying updated on emerging technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning about new technologies
+              <ImPointRight /> Traveling, capturing moments through photography, and sharing stories
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring new places and photography
+              <ImPointRight /> I’m always looking to connect, learn, and grow—whether it’s diving into data, discovering new places, or embracing innovative ideas!
             </li>
           </ul>
 

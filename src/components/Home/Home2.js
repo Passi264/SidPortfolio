@@ -134,31 +134,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have a strong passion for data and analytics, and over time, I've
-              gained a solid understanding of the field. 📊
-              <br />
-              <br />I am proficient in
-              <i>
-                <b className="purple"> SQL, Python, and Power BI. </b>
-              </i>
+              I’m Siddhant Somvanshi, a data analyst passionate about turning raw data into meaningful stories that drive impactful decisions. With expertise in <i><b className="purple">SQL, Python, and Power BI</b></i>, I enjoy creating dashboards, uncovering insights, and solving real-world challenges. I believe that good analysis not only answers questions but also sparks new ideas and opportunities.   📊      
               <br />
               <br />
-              My areas of interest include working with{" "}
-              <i>
-                <b className="purple">Data Visualization, Business Intelligence, </b>
-              </i>
-              and developing insights in sectors such as{" "}
-              <i>
-                <b className="purple">Finance and Healthcare Analytics.</b>
-              </i>
+              My core interests lie in <i><b className="purple">data visualization, business intelligence, and healthcare analytics.</b></i> I enjoy experimenting with tools like <i><b className="purple">Streamlit</b></i> to build interactive data applications, combining creativity with technical skills to make analytics more engaging and accessible. By transforming complex data into actionable insights, I aim to support smarter decision-making and deliver value.  
               <br />
               <br />
-              Whenever possible, I apply my skills to build data-driven products
-              using <b className="purple">Python</b> and frameworks like
-              <i>
-                <b className="purple"> Streamlit</b>
-              </i>
-              &nbsp; for interactive data applications.
+              Outside of work, I love analyzing financial markets, learning about emerging technologies, and exploring new places with my camera. These interests fuel my curiosity and creativity, inspiring me to approach every challenge with fresh perspectives and innovative solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -176,7 +158,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sidd7200"
+                  href="https://github.com/sidd7200?tab=repositories"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -201,8 +183,8 @@ function Home2() {
           <Col md={12} className="home-about-tagline">
             <h2>
               <span className="purple">Data Analyst</span> |{" "}
-              <span className="purple">Business Intelligence Developer</span> |{" "}
-              <span className="purple">Python Enthusiast</span>
+              <span className="purple">Business Analyst</span> |{" "}
+              <span className="purple">Learner</span>
             </h2>
           </Col>
         </Row>

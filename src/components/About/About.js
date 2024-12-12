@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import siddhantImage from "../../Assets/Projects/siddhant.jpg";
-import roadmapImage from "../../Assets/Projects/xs.png";
+import siddhantImage from "../../Assets/Projects/sidimage.jpeg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -28,10 +27,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "50px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={siddhantImage} alt="about" className="img-fluid" />
+            <img src={siddhantImage} alt="about" className="img-fluid" style={{ maxWidth: "100%", height: "auto", maxHeight: "500px" }} />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -45,16 +44,6 @@ function About() {
         </h1>
         
         <Toolstack />
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col md={8}>
-            <img
-              src={roadmapImage} // Use the imported image here
-              alt="Career Roadmap"
-              className="img-fluid"
-              style={{ width: "100%" }}
-            />
-          </Col>
-        </Row>
       </Container>
     </Container>
   );
